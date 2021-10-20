@@ -34,3 +34,7 @@ data = "From username@domain.com at 3:00 PM"
 result = re.findall('\S+@\S+', data)
 
 print(result)
+
+result = re.findall('@([^ ]*)', data)
+
+print(result)
