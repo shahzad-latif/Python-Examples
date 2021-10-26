@@ -3,6 +3,7 @@ import json
 
 serviceurl = "https://maps.googleapis.com/maps/api/geocode/json?"
 address = "shed 99 lahore pakistan"
+#use your own key. the below key is destroyed :)
 key = "AIzaSyAUuWX....2yDyU....bz-GeT7pzOi7xRME"
 
 url = serviceurl + urllib.parse.urlencode({'address':address}) + "&" + urllib.parse.urlencode({'key':key})
